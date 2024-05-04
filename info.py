@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '20389440'))
-API_HASH = environ.get('API_HASH', 'a1a06a18eb9153e9dbd447cfd5da2457') 
-BOT_TOKEN = environ.get('BOT_TOKEN', "6564513574:AAF1dwXAmMGbLFEIyb_eHGow9Q_561bWf2U") 
+SESSION = environ.get('SESSION', 'Test First')
+API_ID = int(environ.get('API_ID', '28204114'))
+API_HASH = environ.get('API_HASH', '02f6d3d1b8933cae77960e794c41afe1') 
+BOT_TOKEN = environ.get('BOT_TOKEN', "6879107676:AAGOii7G33ScrLbr-lWcoDRxKNpQPW1SKWY") 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -30,9 +30,9 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sushankm16:4i1WAfPYKWyqPIDD@cluster0.sngp9pz.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://scifithriller009:Lrx4fhEaqw07TIQ2@cluster007.1qocngm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster007")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster007")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TG Files')
 
 # FSUB
 auth_channel = environ.get('AUTH_CHANNEL', '')
